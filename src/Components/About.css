@@ -1,0 +1,47 @@
+p{
+    line-height: 23px;
+}
+h5{
+    font-family: "Science Gothic", sans-serif;
+}
+.resume a{
+    display: flexbox;
+    padding: 1px 20px;
+    border-radius: 20px;
+    background-color: #0ef;
+    box-shadow: 0 0 1rem #0ef;
+    border: 2px solid #0ef;
+    margin-left: -50px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    transition: .5s ease;
+    color: #323946;
+}
+.resume a:hover{
+    box-shadow: none;
+}
+
+@media (min-width:1200px) {
+    .para1{
+       
+        font-size: 20px;
+        line-height: 1.4;
+    }
+    .para2{
+        
+        font-size: 20px;
+        line-height: 1.4;
+    }
+    .about{
+        font-size: 38px;
+    }
+    .resume a{
+        border: 2px solid #0ef;
+        color: #323946;
+    }
+    .resume a:hover{
+        box-shadow: none;
+        color: #323946;
+    }
+    
+}

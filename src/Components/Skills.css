@@ -1,0 +1,9 @@
+@media (min-width:1200px) {
+    .skills{
+        margin-right: 550px;
+    }
+    .skill{
+        margin-left: 80px;
+        margin-right: 600px;
+    }
+}
