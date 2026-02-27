@@ -1,6 +1,6 @@
 import React from "react";
 import image from '../assets/Image/undraw_profile_d7qw.png'
-import resume from '../assets/Image/Resume_1.pdf'
+import resume from '../assets/Image/Prem_Resume.pdf'
 import './About.css'
 
 export default function About() {
