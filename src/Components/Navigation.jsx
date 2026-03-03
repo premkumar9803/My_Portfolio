@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import './Navigation.css'
 import bird from '../assets/Image/gull-bird-flying-shape.png'
-// import bird from '../assets/Image/logo1.png'
+
 
 export default function Navigation () {
   const [open, setOpen] = useState(false);
