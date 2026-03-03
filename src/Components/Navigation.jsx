@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import './Navigation.css'
 import bird from '../assets/Image/gull-bird-flying-shape.png'
+// import bird from '../assets/Image/logo1.png'
 
 export default function Navigation () {
   const [open, setOpen] = useState(false);
@@ -40,8 +41,8 @@ export default function Navigation () {
         {/* LOGO + TOGGLE */}
         <div className=" flex justify-between">
           <div className=" flex items-center">
-            <img src={bird} alt="" className=" w-8 md:w-12 md:mb-2.5" />
-            <h1 className=" px-1 mt-3 text-3xl text-white">
+            <img src={bird} alt="" className="mb-2.5 w-8 md:w-10" />
+            <h1 className=" px-1 text-3xl text-white">
               PORT<span className=" text-[#0ef]">FOLIO</span>
             </h1>
           </div>
@@ -49,7 +50,7 @@ export default function Navigation () {
           {/* TOGGLE BUTTON */}
           <button
           onClick={() => setOpen(!open)}
-          className=" md:hidden flex items-center mt-2 mr-5 text-xl text-[#0ef] border-2 border-[#0ef] rounded-lg px-1 py-1
+          className=" md:hidden flex items-center mr-5 text-xl text-[#0ef] border-2 border-[#0ef] rounded-lg px-1.5 py-2
            cursor-pointer hover:bg-[#0ef] hover:text-[#323946] hover:scale-105 duration-300 transition-all"
           >
             {open ? (
